@@ -26,7 +26,7 @@
 }   
 
 .btn-blue{
-    background-color: blue;
+    background-color: #1F75FE;
     color: white;
     padding: 4px 10px;
     border: none; 
@@ -38,6 +38,7 @@
 .jumbotron{
     background-color: lightblue;
     max-height: 750px;
+    margin-bottom: 150px;
 }
 
 .content{
@@ -45,13 +46,13 @@
 }
 
 .main-col{
-    flex-basis: 40%;
+    flex-basis: 60%;
     margin-top: 40px;
     font-size: 20px;
 }
 
 .side-col{
-    flex-basis: 60%;
+    flex-basis: 40%;
     margin-top: 40px;
 }
 
@@ -60,7 +61,7 @@
 }
 
 .btn-blue-header {
-    background-color: blue;
+    background-color: #1F75FE;
     color: white;
     padding: 9px 12px;
     border: none;
@@ -71,12 +72,143 @@
     margin-top: 100px;
     font-size: 50px;
 }
+
+/* Main */
+
+.main-title{
+    font-size: 60px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+.radio{
+    font-size: 20px;
+    display: inline;
+    padding-right: 100px;
+}
+
+.column{
+    display: flex;
+    height: 950px;
+    
+    
+   
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.cards{
+    
+    border: 2px solid grey;
+    min-width: 400px;
+    margin: 60px 5px;
+   
+}
+
+.title-sub, .title-info{
+    border-bottom: 2px solid grey;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.subscription-price{
+    padding-left: 30px;
+}
+
+.subscription-price h2{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.subscription-details{
+    margin-top: 50px;
+    border-bottom: 1px solid grey;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    
     
 
+    
+}
+
+.btn-blue-sub{
+    background-color: #1F75FE;
+    color: white;
+    padding: 12px 40px;
+    border: none;
+    margin-bottom: 40px;
+}
+
+.subscription-footer{
+    margin-top: 50px;
+    padding-left: 30px;
+}
 
 
+.subscription-footer h3{
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+ 
+.fa-solid.fa-check{
+    color: #1F75FE;
+}
+
+/* contatti */
+
+.box{  
+    border: 1px solid grey;
+    height: 20rem;  
+    margin-bottom: 120px;
+}
+
+.row{
+    display: flex;
+    padding-left: 30px;
+}
+
+.info-details{
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.btn-blue-info{
+    background-color: #1F75FE;
+    color: white;
+    padding: 12px 40px;
+    border: none;
+    margin-left: 190px;
+}
+
+/* Partner */
+
+.partner-img{
+    width: 700px;
+
+}
+  
+.side-col h2{
+    font-weight: bolder;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.btn-white{
+    background-color: white;
+    padding: 9px 15px;
+}
 
 
+.column-2{
+    display: flex;
+    height: 950px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
 
 
 
