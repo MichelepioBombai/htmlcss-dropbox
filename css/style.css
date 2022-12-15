@@ -399,19 +399,52 @@
     margin-bottom: 60px;
     
 }
-
-.content-question {
+.dflex{
     display: flex;
-    
 }
 
-.question-main {
-    font-size: 20px;
+.question{
     margin-bottom: 40px;
 }
 
-.side-col-w20{
-    max-height: 40px;
-    margin-left: 400px;
-    margin-top: 10px;
+.fa-solid.fa-chevron-down{
+    margin-left: 200px;
+}
+
+.container-question{
+    margin-bottom: 150px;
+}
+
+/* Footer */
+
+footer{
+    background-color: black;
+    color: white;
+    height: 630px;
+}
+
+
+ul li{
+    list-style: none;
+    margin: 25px 0;
+    
+}
+
+.box-footer h2{
+    padding-top: 70px;
+    padding-bottom: 20px;
+    
+    
+}
+
+.box-footer{
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hr-footer{
+    margin-right: 1300px;
+    margin-bottom: 30px;
+
 }
