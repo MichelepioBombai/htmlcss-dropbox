@@ -9,14 +9,36 @@
     background-color: white;
     width: 100%;
     
+    
 }
 
 .header-head div{
     display: flex;
     display: inline;
     padding: 20px;
-    cursor: pointer;   
+    cursor: pointer; 
+     
+    
 }
+
+.nav-content2:hover{
+    box-shadow: 0px 4px 0px black;
+}
+
+.nav-content:hover{
+    box-shadow: 0px 4px 0px black;
+}
+
+.nav-content2{
+    position: relative;
+    top: 8px;
+}
+
+.btn-blue-sub:hover, .btn-blue-header:hover, .btn-blue:hover{
+    filter: brightness(1.2);
+}
+
+
 
 .fa-brands.fa-dropbox{
     color: blue;
@@ -33,6 +55,8 @@
     color: white;
     padding: 4px 10px;
     border: none; 
+    position: relative;
+    top: 8px;
    
 }
 
@@ -144,6 +168,8 @@
     margin-bottom: 40px;
 }
 
+
+
 .subscription-footer{
     margin-top: 50px;
     padding-left: 30px;
@@ -182,9 +208,11 @@
     background-color: #1F75FE;
     color: white;
     padding: 15px 20px;
-    border: none;
-    
-    
+    border: none; 
+}
+
+.btn-blue-info:hover{
+    filter: brightness(1.2);
 }
 
 /* Partner */
@@ -405,11 +433,14 @@
 
 .question{
     margin-bottom: 40px;
+    
 }
 
 .fa-solid.fa-chevron-down{
     margin-left: 200px;
 }
+
+
 
 .container-question{
     margin-bottom: 150px;
